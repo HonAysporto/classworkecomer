@@ -1,0 +1,114 @@
+body {
+    background-color: teal;
+}
+
+.add-btn{
+    background-color: rgb(181, 236, 236);
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width: 50px;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+.add-btn:hover{
+    color: rgb(181, 236, 236);
+    background-color: black;
+    transition: .6s;
+
+}
+
+input {
+    height: 40px;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px;
+}
+.result {
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+table {
+    border: 3px solid rgb(41, 77, 77);
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+}
+
+
+
+.btn-div{
+    border-bottom: none;
+    /* background-color: blue; */
+    display: f;
+}
+
+.btn-div button{
+    background-color: teal;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-div button:hover{
+    color: teal;
+    transition: .5s ease-in-out;
+    background-color: rgb(5, 96, 96);
+   
+}
+
+
+@media screen and (max-width: 768px) {
+    .main {
+        width: 90%;
+        max-width: 100%;
+    }
+    .input {
+        width: 100%;
+        
+    }
+    .add-btn {
+        width: 100%;
+    }
+}
+
+
+
+table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+}
+
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc; 
+}
+
+.spec-td{
+    min-width: 300px;
+    
+}
+
+
+th {
+    background-color: teal;
+    color: #fff;
+}
+
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+ tr:nth-child(odd) {
+    background-color: #fff;
+}
+

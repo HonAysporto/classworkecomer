@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gbajabiamila Trades</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <input id="productNam" type="text" placeholder="Enter Product Name">
+    <input id="productDes" type="text" placeholder=" Description">
+    <input id="productpri" type="number" placeholder="Price">
+    <button onclick="addproduct()">Add Product</button>
+
+    <div class="result">
+        <table>
+            <thead>
+                <tr>
+                    <th>S/N</th>
+                    <th>Product Name</th>
+                    
+                    <th>Details</th>
+                    <th>Price</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="show">
+    
+            </tbody>
+        </table>
+       </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
