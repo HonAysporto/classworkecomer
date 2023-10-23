@@ -2,12 +2,17 @@ body {
     background-color: teal;
 }
 
+h1 {
+    color: blue;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .add-btn{
     background-color: rgb(181, 236, 236);
     border: none;
     cursor: pointer;
-    height: 40px;
-    width: 50px;
+   padding: 10px;
     border-radius: 40px;
     font-weight: bold;
 }

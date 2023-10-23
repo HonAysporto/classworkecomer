@@ -16,6 +16,10 @@ function addproduct() {
         alert('Fill all sections')
     } else {
         productArray.push(productObj);
+        document.getElementById('productNam').value = "";
+        document.getElementById('productDes').value = "" ;
+        document.getElementById('productpri').value = "";
+
         renderproducts();
     }
     
