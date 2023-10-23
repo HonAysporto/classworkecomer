@@ -13,7 +13,7 @@ function addproduct() {
     }
 
     if (document.getElementById('productNam').value == ""||  document.getElementById('productDes').value == "" || document.getElementById('productpri').value == " ") {
-        alert('Fill all sections')
+        alert('but not be left unfilled')
     } else {
         productArray.push(productObj);
         document.getElementById('productNam').value = "";
